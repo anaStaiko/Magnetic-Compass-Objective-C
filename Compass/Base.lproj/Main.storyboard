@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyt-dY-HVa">
+                                <rect key="frame" x="20" y="280" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="cYz-VZ-dcT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FD3-1k-VqK">
+                                <rect key="frame" x="280" y="20" width="40" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="dmX-0e-eRE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03H-0G-SDF">
+                                <rect key="frame" x="540" y="277" width="40" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="hMC-VD-6s8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD1-qa-xSZ">
+                                <rect key="frame" x="280" y="535" width="40" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kmy-Z6-jDW">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cOU-B5-Yjb"/>
+                                    <constraint firstAttribute="width" constant="100" id="mnb-6m-nfu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FD3-1k-VqK" firstAttribute="leading" secondItem="xD1-qa-xSZ" secondAttribute="leading" id="1EM-Vf-4pj"/>
+                            <constraint firstItem="vyt-dY-HVa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="260" id="4LZ-Hm-Bt3"/>
+                            <constraint firstItem="kmy-Z6-jDW" firstAttribute="centerY" secondItem="vyt-dY-HVa" secondAttribute="centerY" id="AZX-wS-5J7"/>
+                            <constraint firstItem="FD3-1k-VqK" firstAttribute="trailing" secondItem="xD1-qa-xSZ" secondAttribute="trailing" id="BSA-mZ-bmy"/>
+                            <constraint firstItem="FD3-1k-VqK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JlV-n6-P8M"/>
+                            <constraint firstAttribute="bottom" secondItem="xD1-qa-xSZ" secondAttribute="bottom" constant="20" symbolic="YES" id="bq7-qf-gf9"/>
+                            <constraint firstItem="03H-0G-SDF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hQX-70-yoR"/>
+                            <constraint firstItem="03H-0G-SDF" firstAttribute="centerY" secondItem="kmy-Z6-jDW" secondAttribute="centerY" id="jc7-fB-Aad"/>
+                            <constraint firstItem="FD3-1k-VqK" firstAttribute="centerX" secondItem="kmy-Z6-jDW" secondAttribute="centerX" id="lI5-sE-tmv"/>
+                            <constraint firstItem="xD1-qa-xSZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="od9-Xx-uwc"/>
+                            <constraint firstItem="vyt-dY-HVa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uy8-XM-4qx"/>
+                            <constraint firstItem="03H-0G-SDF" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="v9A-DF-vXL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="needle" destination="kmy-Z6-jDW" id="55f-We-L3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368" y="369"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow1.png" width="512" height="512"/>
+    </resources>
+</document>
